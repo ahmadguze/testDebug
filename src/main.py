@@ -11,7 +11,7 @@ db = SQLAlchemy(app)
 @app.route("/enable")
 def enable():
     import pydevd_pycharm
-    pydevd_pycharm.settrace('192.168.33.1', port=500, stdoutToServer=True, stderrToServer=True)
+    pydevd_pycharm.settrace('localhost', port=500, stdoutToServer=True, stderrToServer=True)
     return "enabled successfully"
 
 
