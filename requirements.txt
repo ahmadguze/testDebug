@@ -12,3 +12,4 @@ pydevd==2.4.1
 pydevd-pycharm==211.7442.45
 SQLAlchemy==1.4.20
 Werkzeug==2.0.1
+gunicorn==20.1.0
